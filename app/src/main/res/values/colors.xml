@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button_bg_color">#1C2347</color>
+    <color name="main_bg_shadow_color">#80000000</color>
+    <color name="main_light_bg">#00BFFF</color>
+    <color name="main_dark_bg">#1E90FF</color>
+    <color name="home_cardview_color">#1C2347</color>
+</resources>

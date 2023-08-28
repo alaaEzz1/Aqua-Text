@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Bottom layer: Gradient background -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@color/main_dark_bg"
+                android:endColor="@color/main_light_bg"
+                android:angle="135" />
+        </shape>
+    </item>
+    <!-- Middle layer: Zigzag pattern overlay -->
+    <item
+        android:drawable="@drawable/zigzag_pattern"
+        android:gravity="center" />
+    <!-- Top layer: Semi-transparent overlay -->
+    <item>
+        <color android:color="@color/main_bg_shadow_color" />
+    </item>
+</layer-list>
